@@ -1,15 +1,15 @@
 Package: GPCERF
 Title: Gaussian Processes for Estimating Causal Exposure Response
         Curves
-Version: 0.1.0
+Version: 0.2.0
 Authors@R: c(
     person("Naeem", "Khoshnevis", email = "nkhoshnevis@g.harvard.edu",
            role=c("aut","cre"), 
-           comment = c(ORCID = "0000-0003-4315-1426", AFFILIATION="FASRC")),
+           comment = c(ORCID = "0000-0003-4315-1426", AFFILIATION="HUIT")),
     person("Boyu", "Ren", email = "bren@partners.org",
            role= c("aut"),            
            comment = c(ORCID = "0000-0002-5300-1184", AFFILIATION="McLean Hospital")),
-    person("Tanujt", "Dey", email = "tdey@bwh.harvard.edu",
+    person("Tanujit", "Dey", email = "tdey@bwh.harvard.edu",
            role= c("ctb"),            
            comment = c(ORCID = "0000-0001-5559-211X", AFFILIATION="HMS")),
     person("Danielle","Braun", email = "dbraun@hsph.harvard.edu",
@@ -22,22 +22,22 @@ Language: en-US
 URL: https://github.com/NSAPH-Software/GPCERF
 BugReports: https://github.com/NSAPH-Software/GPCERF/issues
 Copyright: Harvard University
-Imports: parallel, data.table, xgboost, stats, MASS, spatstat.geom,
-        logger, Rcpp, ggplot2, rlang, Matrix
+Imports: parallel, xgboost, stats, MASS, spatstat.geom, logger, Rcpp,
+        RcppArmadillo, ggplot2, rlang, Rfast, SuperLearner
 Encoding: UTF-8
-RoxygenNote: 7.1.2
+RoxygenNote: 7.2.1
 Depends: R (>= 3.5.0)
 Suggests: rmarkdown, knitr, testthat (>= 3.0.0)
 Config/testthat/edition: 3
 VignetteBuilder: knitr
 LinkingTo: RcppArmadillo, Rcpp
 NeedsCompilation: yes
-Packaged: 2022-06-30 14:33:22 UTC; nak443
+Packaged: 2023-01-21 23:44:24 UTC; nak443
 Author: Naeem Khoshnevis [aut, cre] (<https://orcid.org/0000-0003-4315-1426>,
-    FASRC),
+    HUIT),
   Boyu Ren [aut] (<https://orcid.org/0000-0002-5300-1184>, McLean
     Hospital),
-  Tanujt Dey [ctb] (<https://orcid.org/0000-0001-5559-211X>, HMS),
+  Tanujit Dey [ctb] (<https://orcid.org/0000-0001-5559-211X>, HMS),
   Danielle Braun [aut] (<https://orcid.org/0000-0002-5177-8598>, HSPH)
 Repository: CRAN
-Date/Publication: 2022-07-02 09:50:02 UTC
+Date/Publication: 2023-01-22 08:30:02 UTC
