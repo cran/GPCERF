@@ -1,7 +1,7 @@
 Package: GPCERF
 Title: Gaussian Processes for Estimating Causal Exposure Response
         Curves
-Version: 0.2.2
+Version: 0.2.3
 Authors@R: c(
     person("Naeem", "Khoshnevis", email = "nkhoshnevis@g.harvard.edu",
            role=c("aut","cre"), 
@@ -33,7 +33,7 @@ Config/testthat/edition: 3
 VignetteBuilder: knitr
 LinkingTo: RcppArmadillo, Rcpp
 NeedsCompilation: yes
-Packaged: 2024-02-16 16:02:35 UTC; rstudio
+Packaged: 2024-03-01 23:17:00 UTC; rstudio
 Author: Naeem Khoshnevis [aut, cre] (<https://orcid.org/0000-0003-4315-1426>,
     HUIT),
   Boyu Ren [aut] (<https://orcid.org/0000-0002-5300-1184>, McLean
@@ -41,4 +41,4 @@ Author: Naeem Khoshnevis [aut, cre] (<https://orcid.org/0000-0003-4315-1426>,
   Tanujit Dey [ctb] (<https://orcid.org/0000-0001-5559-211X>, HMS),
   Danielle Braun [aut] (<https://orcid.org/0000-0002-5177-8598>, HSPH)
 Repository: CRAN
-Date/Publication: 2024-02-16 23:40:05 UTC
+Date/Publication: 2024-03-02 07:12:40 UTC
